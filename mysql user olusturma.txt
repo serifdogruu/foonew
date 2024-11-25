@@ -1,0 +1,3 @@
+CREATE USER 'ogrenci_kullanici'@'localhost' IDENTIFIED BY 'sifre';
+GRANT ALL PRIVILEGES ON ogrenci_hobi.* TO 'ogrenci_kullanici'@'localhost';
+FLUSH PRIVILEGES;
